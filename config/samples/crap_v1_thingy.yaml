@@ -1,0 +1,12 @@
+apiVersion: crap.tvs.io/v1
+kind: Thingy
+metadata:
+  labels:
+    app.kubernetes.io/name: thingy
+    app.kubernetes.io/instance: thingy-sample
+    app.kubernetes.io/part-of: cou-test
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: cou-test
+  name: thingy-sample
+spec:
+  # TODO(user): Add fields here
